@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Joke Generator</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <span><img src="logo.png" alt="" id = "logoImg" class="logo logo hidden"></span>
+      <p id="joke"></p>
+
+      <div class="align-div">
+        <div class="options" id="options">
+          <select class="hide-option option" id="select" name="Select Category">
+            <option value="Any">Random Joke</option>
+            <option value="Programming">Programming Joke</option>
+            <option value="Dark">Dark Joke</option>
+            <option value="Pun">Pun Joke</option>
+          </select>
+        </div>
+      </div>
+      <button id="btn" class="button">Get Random Joke</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
